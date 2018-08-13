@@ -1,4 +1,6 @@
 # gob，protobuf，json在golang中的序列化效率对比
+田炳生笔记
+
 looptimes:=10000
 
 
@@ -61,7 +63,7 @@ looptimes:=10000
 
 
 
- 
+
 
 
 
@@ -113,11 +115,11 @@ looptimes:=10000
 
 
 
- 
 
 
 
- 
+
+
 
 
 
@@ -173,11 +175,11 @@ looptimes:=10000
 
 
 
- 
 
 
 
- 
+
+
 
 
 
@@ -223,3 +225,5 @@ looptimes:=10000
 protobuf还是明显优势，但是gob有点落后。
 
 综上所述：在数据量小的时候三者差不多，但是数据量大了以后protobuf会更好，但是gob显得力不从心，json表现中庸。
+
+```
