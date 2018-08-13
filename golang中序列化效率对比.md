@@ -1,14 +1,5 @@
 # gob，protobuf，json在golang中的序列化效率对比
-
-2018年02月09日 15:07:07
-
-阅读数：587
-
-先上代码：
-
-```
 looptimes:=10000
-
 
 
 	u:=User{66,"nxin","beijing"}
@@ -36,11 +27,6 @@ looptimes:=10000
 
 
 	for i:=0;i<looptimes;i++ {
-
-
-
- 
-
 
 
 		err := enc.Encode(u)       //编码器对结构体编码
